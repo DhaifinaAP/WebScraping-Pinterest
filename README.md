@@ -3,7 +3,7 @@
 ## Deskripsi Project
 Skrip Python ini digunakan untuk mengambil data pin dari Pinterest berdasarkan kata kunci pencarian yang dimasukkan pengguna. Data yang diambil berupa URL konten, sumber gambar, dan deskripsi, yang kemudian disimpan ke dalam file CSV.
 
-## Prasyarat
+## Requirements
 Sebelum menjalankan proyek ini, pastikan Anda telah menginstal perangkat lunak dan requirements berikut:
 - **Python 3.x**
 - **Google Chrome** (versi terbaru)
@@ -44,5 +44,6 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal perangkat lunak d
 ## Struktur File
 - **scraping.py**: Skrip utama proyek yang berfungsi untuk mengambil data dari Pinterest.
 - **pinterest_data.csv**: File hasil pengumpulan data dari Pinterest yang berisi URL konten, sumber gambar, dan deskripsi.
+
 
 
