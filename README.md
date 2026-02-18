@@ -1,7 +1,7 @@
 # Web Scraping Pinterest Automation
 
 ## Deskripsi Project
-Proyek ini adalah skrip Python yang digunakan untuk mengambil data pin dari Pinterest berdasarkan kata kunci pencarian yang dimasukkan pengguna. Data yang diambil berupa URL konten, sumber gambar, dan deskripsi, yang kemudian disimpan ke dalam file CSV.
+Skrip Python ini digunakan untuk mengambil data pin dari Pinterest berdasarkan kata kunci pencarian yang dimasukkan pengguna. Data yang diambil berupa URL konten, sumber gambar, dan deskripsi, yang kemudian disimpan ke dalam file CSV.
 
 ## Prasyarat
 Sebelum menjalankan proyek ini, pastikan Anda telah menginstal perangkat lunak dan requirements berikut:
@@ -27,7 +27,7 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal perangkat lunak d
    pip install -r requirements.txt
    ```
 
-## Cara Menjalankan Proyek
+## How to Run
 
 1. **Jalankan skrip Python**:
    Pastikan Anda berada di direktori proyek, lalu jalankan skrip dengan perintah berikut:
@@ -45,8 +45,4 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal perangkat lunak d
 - **scraping.py**: Skrip utama proyek yang berfungsi untuk mengambil data dari Pinterest.
 - **pinterest_data.csv**: File hasil pengumpulan data dari Pinterest yang berisi URL konten, sumber gambar, dan deskripsi.
 
-## Masalah dan Solusi Umum
-- **Error "Unable to locate element"**: Pastikan elemen pada halaman masih menggunakan selektor yang sama. Elemen dapat berubah karena pembaruan pada halaman web.
-- **Browser tidak terbuka atau terdeteksi sebagai tidak aman**: Pastikan Anda menggunakan versi `ChromeDriver` yang cocok dengan versi Chrome Anda.
-- **Data tidak muncul**: Pastikan kata kunci pencarian yang digunakan menghasilkan konten yang valid dan halaman berhasil dimuat dengan benar.
 
